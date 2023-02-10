@@ -1,0 +1,19 @@
+{% extends "exxen.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <form action="" method="POST" class="w-50 m-auto border text-light p-5">
+            {% csrf_token %}
+            <label for="kullanıcı">Kullanıcı Adı</label>
+            <input type="text" name="kullanici" id="kullanıcı" class="form-control">
+            <label  for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="form-control">
+            <label  for="sifre">Şifre</label>
+            <input type="password" name="sifre" id="sifre" class="form-control">
+            <label for="sifre2">Şifre Onay</label>
+            <input type="password" name="sifre2" id="sifre2" class="form-control">
+            <input type="submit" value="Kayıt Ol" class="btn btn-primary mt-2">
+        </form>
+    </div>
+{% endblock content %}

@@ -1,0 +1,73 @@
+body{
+    background-color:black;
+}
+.container{
+    width:70%;
+}
+.exxem-nav{
+    font-size:1rem;
+    padding:20px 15px;
+}
+.exxen-spor{
+    background-color:black;
+    border:none;
+    padding:10px 20px;
+}
+.uye-giris{
+    padding:8px 20px;
+    border:1px solid black;
+}
+.uye-ol{
+    background-color:rgb(22,22,22);
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+.kayit{
+    padding:30px 0;
+}
+.kayit input{
+    width:90%;
+    padding:10px 20px;
+}
+.kayit input:focus{
+    outline:3px solid yellow;
+}
+.kayit button{
+    width:90%;
+    padding:10px 20px;
+    font-weight:bold;
+}
+.kayit input::placeholder{
+    font-weight:bold;
+    color:black;
+}
+.card{
+    background-color:transparent;
+    color:white;
+    border:none;
+}
+.izle-logo{
+    position:relative;
+}
+.icon{
+    position: absolute;
+    bottom:0;
+    right:2px;
+}
+.resimler img{
+    width:148px;
+    height:40px;
+    margin:5px;
+}
+.fa-brands{
+    font-size:40px;
+    background-color:white;
+    margin:15px;
+    padding:5px;
+}
+.son{
+    background-color:rgb(22,22,22);
+    padding:20px;
+    font-weight:bold;
+}
