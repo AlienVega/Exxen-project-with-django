@@ -30,4 +30,4 @@ jobs:
         run: python manage.py collectstatic --noinput
 
       - name: Start Django app
-        run: gunicorn exxen.wsgi
+        run: gunicorn exxen.wsgi:application
